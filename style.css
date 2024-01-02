@@ -45,3 +45,15 @@ body {
 #contenedor-verde {
     margin: 50px 0;
 }
+
+@media screen and (max-width: 376px) {
+    .contenedor-control {
+        width: 260px;
+        height: 450px;
+        font-size: 1.7rem;
+    }   
+
+    #contenedor-verde {
+        margin: 20px 0;
+    }
+}

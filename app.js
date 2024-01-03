@@ -6,6 +6,8 @@ let inputAzul = document.getElementById('azul');
 // Con esto le agrego a rojo, verde y azul su value por defecto que está en HTML -> Ese será el color por defecto
 let rojo = inputRojo.value, verde = inputVerde.value, azul = inputAzul.value; 
 
+body.style.backgroundColor = `rgb(${rojo}, ${verde}, ${azul})`;
+
 const obtenerDatosColor = (evento) => {
     const rangeSeleccionado = evento.target;
     const valorRangeColor = rangeSeleccionado.value;
